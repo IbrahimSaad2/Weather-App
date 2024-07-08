@@ -1,0 +1,257 @@
+.all-nav{
+    background-color: #1E202B;
+    padding-block: 30px;
+}
+.all-nav .logo a{
+    color: #fff;
+    margin-left: 45px;
+}
+.all-nav .logo a img{
+    width: 33%;
+}
+.all-nav .logo a span{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-left: 10px;
+    position: relative;
+    bottom: 9px;
+}
+.all-nav .logo a span p{
+    font-size: 10px;
+    color: #BFC1C8;
+    position: relative;
+    left: 85px;
+    bottom: 8px;
+}
+
+.menu ul{
+color: #fff;
+position: relative;
+bottom: 12px;
+right: 20px;
+font-size: 15px;
+font-weight: 500;
+}
+.menu li{
+    position: relative;
+}
+.menu li a{
+    text-decoration: none;
+    transition: all 0.2s;
+    border-radius: 2rem;
+    border: 2px solid transparent;
+    padding:4px 15px;
+}
+.menu a:hover{
+    border-color: #009AD8;
+    color: #009AD8;
+}
+.menu .active{
+    color: #009AD8 !important;
+    border-color: #009AD8 !important;
+}
+.btn-sm{
+    color: #009AD8 !important;
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    border: none !important;
+}
+
+.btn-sm i{
+    color: #fff !important;
+}
+.btn-sm:hover i{
+    color: #009AD8 !important;
+}
+
+.header{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-color: #1E202B;
+    padding-bottom: 120px;
+}
+
+.header img{
+    width: 100%;
+}
+
+.header .input input{
+    background-color: #1e202b;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    top: 60px;
+    padding: 12px;
+    color: #ffffff;
+}
+.header .input input::placeholder{
+    color: gray;
+}
+.header .input .btn button{
+    background-color: #009AD8;
+    z-index: 100;
+    padding: 8px 35px;
+    border-radius: 1rem;
+    border: none;
+    color: #fff;
+    position: absolute;
+    right: 4px;
+    top: 63px;
+}
+
+    .info{
+        background-color: #323544;
+        position: relative;
+        top: 100px;
+    }
+    .info .info-date{
+        color: rgb(174, 173, 173);
+    }
+    .info .weather h1{
+        color: #BFC1C8;
+    }
+    .info .weather h2{
+        color: #fff;
+        font-size: 90px;
+        font-weight: 700;
+    }
+    .info .weather h1 span{
+        position: static;
+        top: 0;
+        left: 100%;
+    }
+    .info .down span{
+        color: #BFC1C8;
+    }
+    .info .down img{
+        width: 6%;
+    }
+    .weather-after span{
+        font-size:23px;
+        color: #fff;
+        font-weight: 500;    
+    }
+    .sun img{
+        width: 12%;
+        margin: auto;
+    }
+
+    .weather-after p{
+        color: #BFC1C8;
+    }
+    .weather-after h4{
+        color: #009AD8;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+.footer{
+    background-color: #262936;
+}
+
+
+.footer .sub input{
+    width: 100%;
+    background-color: #1E202B;
+    margin-top: 40px;
+    border-radius: 2rem;
+    border: none;
+    padding: 13px;
+}
+.footer .sub input:focus{
+    outline: none;
+    color: #fff;
+}
+.footer .sub::placeholder{
+    color: #757571;
+    font-weight: 500;
+}
+.footer button{
+    position: absolute;
+    background-color: #009AD8;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 2rem;
+    border: none;
+    right: 43%;
+    top: 44px;
+}
+.footer .icons-footer i{
+    color: #009AD8;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #1E202B;
+    transition: all 0.3s;
+    position: relative;
+    left: 33%;
+}
+
+.footer .icons-footer i:hover{
+    background-color: #009AD8;
+    color: #fff;
+}
+
+.load{
+    height: 100%;
+    width: 100%;
+    background-color: #1e202bf8;
+    text-align: center;
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px dotted #FFF;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 2s linear infinite;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+
+
+
+
+@media (max-width: 991.20px) {
+#navbarNav{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    background-color:#262936;
+    border-radius: 1rem;
+}
+#navbarNav .active{
+    color: #009AD8;
+    border-color: #009AD8;
+}
+#navbarNav ul li{
+    padding-block: 20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.63);
+}
+.footer button{
+    right: 3%;
+}
+}
+@media (min-width:768px) and (max-width:992px) {
+    .footer button{
+        right: 32%;
+    }
+    
+}
